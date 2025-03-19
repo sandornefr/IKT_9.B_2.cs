@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órarendem</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            vertical-align: middle;
+        }
+        tr:hover {
+            background-color:darkorchid;
+            color: white;
+        }
+        tr:first-child {
+            background-color: mediumorchid;
+            color: white;
+            font-size: 1.2em;
+            padding: 10vh 10vw;
+        }
+
+        table {
+            width: 100%;
+            font-size: 0.7em;
+            table-layout: fixed;
+            background-color: lavender;
+            border-radius: 2px;
+        }
+        h2 {
+            text-align: center;
+        }
+
+        .terkoz {
+            padding-top: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">FŐOLDAL</a> |
+        <a href="listak.html">LISTÁK</a> |
+        <a href="orarend.html">ÓRAREND</a> |
+    </nav>
+    <h2>Órarend</h2>
+    <table>
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 10%;">
+            <col style="width: 17%;">
+            <col style="width: 17%;">
+            <col style="width: 17%;">
+            <col style="width: 17%;">
+            <col style="width: 17%;">
+          </colgroup>
+        <tr>
+            <th>Óra</th>
+            <th>Idő</th>
+            <th>Hétfő</th>
+            <th>Kedd</th>
+            <th>Szerda</th>
+            <th>Csütörtök</th>
+            <th>Péntek</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <th>8:00-8:55</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="terkoz">IKT I.<br><sup>10.E info</sup></td>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <th>8:55-9:40</th>
+            <td class="terkoz">IKT I.<br><sup>10.B (2.cs)</sup></td>
+            <td class="terkoz">IKT II.<br><sup>13.B (2.cs)</sup></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>3.</th>
+            <th>9:50-10:35</th>
+            <td class="terkoz">IKT I.<br><sup>9.B (1.cs)</sup></td>
+            <td class="terkoz">IKT I.<br><sup>10.D (2.cs)</sup></td>
+            <td class="terkoz">IKT I.<br><sup>9.B (2.cs)</sup></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>4.</th>
+            <th>10:45-11:30</th>
+            <td class="terkoz">IKT I.<br><sup>10.C (2.cs)</sup></td>
+            <td></td>
+            <td></td>
+            <td class="terkoz">IKT II.<br><sup>13.B (1.cs)</sup></td>
+            <td class="terkoz">Munkavállalói ismeretek<br><sup>9.C</sup></td>
+        </tr>
+        <tr>
+            <th>5.</th>
+            <th>11:40-12:25</th>
+            <td class="terkoz">IKT I.<br><sup>10.B (1.cs)</sup></td>
+            <td class="terkoz">IKT I.<br><sup>10.C (1.cs)</sup></td>
+            <td class="terkoz">IKT I.<br><sup>10.D (1.cs)</sup></td>
+            <td class="terkoz">Munkavállalói ismeretek<br><sup>9.K</sup></td>
+            <td class="terkoz">Osztályfőnöki<br><sup>13.E</sup></td>
+        </tr>
+        <tr>
+            <th>6.</th>
+            <th>12:45-13:30</th>
+            <td class="terkoz">IKT II.<br><sup>13.C (2.cs)</sup></td>
+            <td class="terkoz">IKT II.<br><sup>13.E (1.cs)</sup></td>
+            <td class="terkoz">IKT I.<br><sup>9.A (1.cs)</sup></td>
+            <td class="terkoz">IKT II.<br><sup>13.E (2.cs)</sup></td>
+            <td class="terkoz">IKT I.<br><sup>9.A (2.cs)</sup></td>
+        </tr>
+        <tr>
+            <th>7.</th>
+            <th>13:35-14:20</th>
+            <td class="terkoz">IKT II.<br><sup>13.C (1.cs)</sup></td>
+            <td class="terkoz">IKT II.<br><sup>13.E (1.cs)</sup></td>
+            <td></td>
+            <td class="terkoz">IKT II.<br><sup>13.E (2.cs)</sup></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>8.</th>
+            <th>14:25-15:10</th>
+            <td></td>
+            <td class="terkoz">IKT I.<br><sup>10.A (2.cs)</sup></td>
+            <td></td>
+            <td class="terkoz">IKT I.<br><sup>10.A (1.cs)</sup></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
