@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <h2>Pizza rendelés</h2>
+    <form>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="nev">Név: </label><input type="text" name="nev" id="nev" placeholder="Kiss István" required><br><br>
+            <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="valami@valami.hu" required><br><br>
+            <label for="tel">Telefon: </label><input type="tel" name="tel" id="tel" placeholder="+36301234567" required><br><br>
+            <label for="cim">Cím: </label><input type="text" name="cim" id="cim" placeholder="1234 Valami, Valami u. 5." required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Rendelés</legend>
+            <label>Méret: </label>
+            <input type="radio" name="meret" id="kicsi"><label for="kicsi">25 cm</label>
+            <input type="radio" name="meret" id="kozepes"><label for="kozepes">32 cm</label>
+            <input type="radio" name="meret" id="nagy"><label for="nagy">55 cm</label>
+        </fieldset>
+    </form>
+</body>
+</html>
